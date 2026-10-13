@@ -1,0 +1,20 @@
+{
+  "param_groups": {
+    "visual.blocks(ViT)": 306242560,
+    "projector": 109105152,
+    "language_model+embed": 4022468096,
+    "lm_head": 0,
+    "other": 0,
+    "total": 4437815808
+  },
+  "image_tokens": 220,
+  "seq_len_example0": 587,
+  "loss_tokens_example0": 249,
+  "learned_text": "[{\"label\":\"crack\",\"bbox_2d\":[430,467,583,506]},{\"label\":\"pothole\",\"bbox_2d\":[361,475,414,522]},{\"label\":\"manhole\",\"bbox_2d\":[317,481,616,625]},{\"label\":\"pothole\",\"bbox_2d\":[583,500,627,614]},{\"label\":\"crack\",\"bbox_2d\":[580,508,655,614]},{\"label\":\"pothole\",\"bbox_2d\":[259,517,311,572]},{\"label\":\"crack\",\"bbox_2d\":[397,628,447,717]},{\"label\":\"crack\",\"bbox_2d\":[339,683,398,808]},{\"label\":\"crack\",\"bbox_2d\":[158,789,361,994]}]<|im_end|>",
+  "lora_modules_llm": 252,
+  "lora_modules_llm_vit": 348,
+  "projector_params": 109105152,
+  "trainable_e1": 33030144,
+  "trainable_e2": 142135296,
+  "trainable_e3": 148426752
+}
