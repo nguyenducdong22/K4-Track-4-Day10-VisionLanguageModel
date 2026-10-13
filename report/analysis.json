@@ -1,0 +1,100 @@
+{
+ "e3_coord_norm1000_f1": 0.43063063063063056,
+ "e3_coord_pixel_f1": 0.0,
+ "median_area_pct": {
+  "train/manhole": 0.39,
+  "train/pothole": 0.38,
+  "train/crack": 1.35,
+  "test/crack": 1.98,
+  "test/manhole": 0.67,
+  "test/pothole": 0.42
+ },
+ "e0": {
+  "pothole": {
+   "tp": 10,
+   "fp": 23,
+   "fn": 111
+  },
+  "crack": {
+   "tp": 8,
+   "fp": 204,
+   "fn": 291
+  },
+  "manhole": {
+   "tp": 25,
+   "fp": 57,
+   "fn": 138
+  },
+  "other": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "e1": {
+  "pothole": {
+   "tp": 17,
+   "fp": 64,
+   "fn": 104
+  },
+  "crack": {
+   "tp": 73,
+   "fp": 308,
+   "fn": 226
+  },
+  "manhole": {
+   "tp": 69,
+   "fp": 23,
+   "fn": 94
+  },
+  "other": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "e2": {
+  "pothole": {
+   "tp": 20,
+   "fp": 83,
+   "fn": 101
+  },
+  "crack": {
+   "tp": 82,
+   "fp": 230,
+   "fn": 217
+  },
+  "manhole": {
+   "tp": 85,
+   "fp": 35,
+   "fn": 78
+  },
+  "other": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "e3": {
+  "pothole": {
+   "tp": 30,
+   "fp": 55,
+   "fn": 91
+  },
+  "crack": {
+   "tp": 100,
+   "fp": 208,
+   "fn": 199
+  },
+  "manhole": {
+   "tp": 109,
+   "fp": 25,
+   "fn": 54
+  },
+  "other": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ }
+}
